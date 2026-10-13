@@ -19,7 +19,6 @@
     "three": "^0.170.0"
   },
   "devDependencies": {
-    "@next/swc-darwin-arm64": "^16.4.0",
     "@types/node": "^20.17.6",
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
