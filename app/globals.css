@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --charcoal-900: #0F1B2D;
+  --concrete-200: #E9E7E2;
+  --amber-primary: #F28C28;
+}
+
+.blueprint-grid {
+  background-size: 40px 40px;
+  background-image:
+    linear-gradient(to right, rgba(242, 140, 40, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(242, 140, 40, 0.05) 1px, transparent 1px);
+}
+
+.blueprint-grid-subtle {
+  background-size: 24px 24px;
+  background-image:
+    linear-gradient(to right, rgba(15, 27, 45, 0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(15, 27, 45, 0.03) 1px, transparent 1px);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #09101B;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2B4770;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #F28C28;
+}
